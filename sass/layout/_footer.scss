@@ -1,0 +1,125 @@
+/* ---------------footer------------------ */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--footer-color);
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.footer-container {
+  // @media screen and (max-width: 767px) {
+  // display: flex;
+  // flex-wrap: wrap;
+  // flex-direction: column;
+  display: block;
+  // margin: 0;
+  // padding: 0px;
+  // list-style: none;
+
+  @media screen and (min-width: 767px) {
+    // display: flex;
+    // flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 165px;
+  }
+  // @media screen and (max-width: 768px) {
+
+  // }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}
+.logo link {
+}
+
+.footer-address {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.footer-item {
+  margin-top: 9px;
+}
+.footer-logo {
+  color: var(--white-color);
+}
+.footer-link-address {
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--white-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--footer-connection-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.footer-title {
+  // font-size: 14px;
+  // line-height: 1.4;
+  // font-weight: 700;
+  @include font(14px, 1.4, 700, null);
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-right {
+  display: block;
+  flex-direction: column;
+  margin-left: 70px;
+  width: 206px;
+  @media screen and (max-width: 767px) {
+    
+    margin: auto;
+    margin-bottom: 60px;
+  }
+}
+.footer-text {
+  margin-bottom: 20px;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-social-link {
+  background-color: #ffffff10;
+}
+.footer-sicial-icon {
+  fill: var(--white-color);
+}
