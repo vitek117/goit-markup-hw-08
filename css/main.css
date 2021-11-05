@@ -127,13 +127,13 @@ img {
 /* ----------------header------------------- */
 .header {
   border-bottom: 1px solid var(--background-color);
-  padding: 24px 0 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1200px) {
   .header {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 0;
   }
 }
 
@@ -373,7 +373,7 @@ img {
 }
 
 .mob-menu-list__social-item:not(:first-child)::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;

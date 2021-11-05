@@ -1,11 +1,18 @@
 /* ----------------header------------------- */
 .header {
   border-bottom: 1px solid var(--background-color);
-  padding: 24px 0 25px;
-  @media screen and (max-width: 767px) {
+  // padding: 24px 0 25px;
     padding-top: 16px;
     padding-bottom: 16px;
+  @media screen and (max-width: 767px) {
+    // padding-top: 16px;
+    // padding-bottom: 16px;
+   
   }
+  @media screen and (min-width: 1200px){
+    padding: 0;
+  }
+  
 }
 .header-container {
   @extend %align-items;
@@ -59,8 +66,7 @@
   bottom: -32px;
 }
 
-
-// 
+//
 
 .header-contact {
   display: flex;
@@ -125,8 +131,7 @@
   fill: currentColor;
 }
 
-
-// 
+//
 .mob-menu {
   width: 100vw;
   height: 100vh;
@@ -169,7 +174,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   background-color: transparent;
   color: #212121;
   border: none;
@@ -252,7 +257,7 @@
   color: #2196f3;
 
   &:not(:first-child)::before {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     top: 0;
