@@ -62,6 +62,9 @@
   @include font(14px, 1.14, 700, null);
   text-transform: uppercase;
   color: var(--dark-text-color);
+  @media screen and (max-width: 767px){
+    text-align: center;
+  }
 }
 .advantages-text {
   font-size: 14px;

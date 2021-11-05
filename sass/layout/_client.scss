@@ -2,7 +2,7 @@
 .client {
   padding-top: 60px;
   padding-bottom: 60px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1199px) {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -15,7 +15,7 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 1.17;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1199px) {
     // font-size: 36px;
     // line-height: 1.17;
     // font-weight: 700;
@@ -36,7 +36,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1199px) {
     display: flex;
     // flex-wrap: wrap;
   }
@@ -63,7 +63,7 @@
     
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1199px) {
     flex-basis: calc(100% / 3 - 30px);
    
   }
