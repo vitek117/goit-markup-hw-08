@@ -723,7 +723,20 @@ img {
   margin-right: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .client-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .client-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
 .client-item {
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
