@@ -29,9 +29,9 @@
   }
 }
 .footer-form-input {
-  // width: 358px;
-  // height: 50px;
-  @include width-height(258px, 50px);
+  width: 350px;
+  height: 50px;
+  // @include width-height(258px, 50px);
   padding: 15px;
   background-color: inherit;
   color: var(--white-color);
@@ -52,6 +52,9 @@
   // @media screen and (max-width: 767px) {
   //   margin: auto;
   // }
+  @media screen and (max-width: 1199px){
+    width: 450px;
+  }
 }
 
 .footer-form-btn {

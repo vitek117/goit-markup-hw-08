@@ -54,17 +54,18 @@
 }
 .client-item {
   // margin-right: 30px;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
   // @media screen and (min-width: 480px) {
   //   margin-right: 30px;
   // }
   @media screen and (max-width: 768px) {
     flex-basis: calc(100% / 2 - 30px);
-    
+    margin-bottom: 30px;
   }
 
   @media screen and (max-width: 1199px) {
     flex-basis: calc(100% / 3 - 30px);
+    margin-bottom: 30px;
    
   }
 }
@@ -75,9 +76,9 @@
 
   justify-content: center;
 
-  // width: 170px;
-  // height: 92px;
-  @include width-height(170px, 92px);
+  width: 170px;
+  height: 92px;
+  // @include width-height(170px, 92px);
   border-radius: 4px;
   border: 1px solid var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

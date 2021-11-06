@@ -8,11 +8,12 @@
   background-size: cover;
   background-color: var(--footer-color);
   max-width: 1600px;
-  height: 600px;
+  // height: 600px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding: 200px 0;
+  padding: 118px 0;
+ 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../img/hero-mobile2x.jpg');
@@ -30,6 +31,8 @@
 
   // !!!!!!1200 px!!!!!!!!!!!!!!!!!
   @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+    height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../img/hero-desctop.jpg');
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
