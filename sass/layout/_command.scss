@@ -61,7 +61,7 @@
   // font-size: 16px;
   // line-height: 1.2;
   // font-weight: 500;
-  @include font(19px, 1.2, 500, null);
+  @include font(16px, 1.2, 500, null);
   text-align: center;
 
   color: var(--dark-text-color);

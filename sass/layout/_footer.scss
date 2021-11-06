@@ -104,9 +104,11 @@
   margin-left: 70px;
   width: 206px;
   @media screen and (max-width: 767px) {
-    
     margin: auto;
     margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 25px;
   }
 }
 .footer-text {
